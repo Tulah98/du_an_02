@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "poppins";
+}
+
+/* commom */
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+
+.header {
+    height: 100vh;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.header .navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+.header .navbar ul a {
+    background: #171100;
+    color: #fff;
+    padding: 10px 41px;
+    border-radius: 24.5px;
+    margin-left: 28px;
+}
+
+.header .navbar .firt-header {
+    position: relative;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #171100;
+}
+
+.header .navbar .firt-header::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 2px;
+    width: 12px;
+    background: #171100;
+    border-radius: 1px;
+    bottom: 0;
+    left: 1px;
+}
+
+.header .navbar .nth-header {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5F5B53;
+}
+
+/* hero */
+
+.header .hero {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .hero .img-hero {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header .hero .image {
+    height: 685px; 
+    width: 470px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.header .hero .card-hero {
+    background: #fff;
+    position: absolute;
+    width: 270px;
+    height: 244px;
+    border-radius: 12px;
+    bottom: 48px;
+    right: -100px;
+}
+
+.card-hero .base-img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.card-hero .base-img:first-child {
+    margin-top: 24px;
+}
+
+.card-hero .base-img img {
+    padding: 12px;
+    margin-left: 24px;
+    margin-right: 16px;
+    border-radius: 50%;
+    background: #FFF9E8;
+}
+
+.card-hero .base-img p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5F5B53;
+}
+
+.card-hero .base-img h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.hero .infor-hero {
+    width: 470px;
+}
+
+.hero .infor-hero h1 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.8rem;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.hero .infor-hero p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5F5B53;
+    margin-top: 22px;
+}
