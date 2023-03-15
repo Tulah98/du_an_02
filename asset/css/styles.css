@@ -27,7 +27,7 @@ a {
 /* header */
 
 .header {
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .header .navbar {
@@ -42,12 +42,15 @@ a {
     gap: 42px;
 }
 
-.header .navbar ul a {
+.header .navbar .btn {
     background: #171100;
     color: #fff;
     padding: 10px 41px;
     border-radius: 24.5px;
     margin-left: 28px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
 }
 
 .header .navbar .firt-header {
@@ -75,6 +78,10 @@ a {
     font-size: 1.6rem;
     line-height: 1.75;
     color: #5F5B53;
+}
+
+.header .navbar .btn {
+
 }
 
 /* hero */
@@ -161,4 +168,154 @@ a {
     line-height: 1.67;
     color: #5F5B53;
     margin-top: 22px;
+}
+
+.hero .infor-hero .nav-hero {
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.hero .nav-hero .btn-hero {
+    padding: 17px 34px;
+    margin-right: 28px;
+    background: #FFB900;
+    border-radius: 32px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.hero .nav-hero .watch-vd {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.hero .watch-vd img {
+    padding: 14px 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
+    border-radius: 50%;
+    margin-right: 14px;
+}
+
+.hero .infor-hero .span {
+    margin-top: 48px;
+    margin-bottom: 8px; 
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5F5B53;
+}
+
+.hero .infor-hero .sub_hero img {
+    margin-right: 28px;
+}
+
+/* ==courses==== */
+
+.courses {
+    margin-top: 200px;
+}
+
+.courses .header-courses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .text-courses {
+    width: 458px;
+}
+
+.courses .text-courses h2 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.courses .text-courses p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5F5B53;
+}
+
+.courses .header-courses .img img {
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.courses .ct-courses {
+    display: flex;
+    gap: 30px;
+    margin-top: 55px;
+}
+
+.courses .ct-courses .row {
+    flex: 1;
+}
+
+.ct-courses .row img {
+    width: 100%;
+    height: 278px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.courses .ct-courses .desc {
+    padding: 16px 22px 22px;
+}
+
+.courses .ct-courses .desc h3 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.courses .ct-courses .desc p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5F5B53;
+    margin-top: 6px;
+}
+
+.courses .ct-courses .desc .mb-row {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .ct-courses .desc .mb-row strong {
+    font-weight: 600;
+    font-size: 1.8;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.courses .ct-courses .desc .mb-row a {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #fff;    
+    background: #171100;
+    border-radius: 25px;
+    padding: 12px 24px;
+}
+
+.courses .ct-courses .desc .mb-row a:hover {
+    background: #FFB900;
 }
