@@ -24,6 +24,14 @@ a {
     margin-right: auto;
 }
 
+.mt-18 {
+    margin-top: 18px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
 /* header */
 
 .header {
@@ -302,7 +310,7 @@ a {
     color: #171100;
 }
 
-.courses .ct-courses .desc .mb-row a {
+.btn-dk {
     font-weight: 600;
     font-size: 1.4rem;
     line-height: 1.86;
@@ -312,7 +320,7 @@ a {
     padding: 12px 24px;
 }
 
-.courses .ct-courses .desc .mb-row a:hover {
+.btn-dk:hover {
     background: #FFB900;
 }
 
@@ -415,7 +423,7 @@ a {
     margin: 16px 0;
 }
 
-.features .text-featu .btn {
+.btn-feature {
     display: inline-block;
     margin-top: 32px;
     padding: 11px 37px;
@@ -426,4 +434,221 @@ a {
     background: #FFB900;
     border-radius: 26px;
     cursor: pointer;
+}
+
+/* =====CTA====== */
+
+.cta {
+    margin-top: 200px;
+}
+
+.cta .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta .row {
+    width: 570px;
+}
+
+.cta .row h2 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.cta .row p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5F5B53;
+    margin-top: 16px;
+}
+
+.cta .nav img {
+    width: 470px;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* ====blog===== */
+
+.blog {
+    margin-top: 200px;
+    background: #FFFCF4;
+}
+
+.blog .text-blog {
+    padding-top: 96px;
+    d
+}
+
+.blog .text-blog h2 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #130606;
+}
+
+.blog .text-blog p {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #696262;
+}
+
+.blog .nav-blog {
+    display: flex;
+    gap: 30px;
+    margin-top: 55px;
+}
+
+.blog .nav-blog .row {
+    flex: 1;
+    border-radius: 16px;
+    background: #fff;
+}
+
+.blog .nav-blog .row:hover {
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+} 
+
+.blog .nav-blog .row img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.blog .nav-blog .desc {
+    margin: 20px 20px 0;
+}
+
+.blog .nav-blog .desc .date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #5F5B53;
+}
+
+.blog .nav-blog .desc .border {
+    display: inline-block;
+    width: 160px;
+    height: 1px;
+    background: #E2DFDA;
+    border-radius: 0.5px;
+    margin: 12px 0;
+}
+
+.blog .nav-blog .desc h3 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #171100;
+}
+
+.blog .nav-blog .row .btn-dk {
+    margin-top: 12px;
+    margin-bottom: 28px;
+    display: inline-block;
+}
+
+.blog .image {
+    margin-top: 38px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+/* =======footer========= */
+.footer {
+    background: #2E2100;
+}
+
+.footer .nav {
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+    border-bottom: #59554B;
+}
+
+.footer .nav h3 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4;
+    line-height: 1.42;
+    color: #FFFFFF;
+}
+
+.footer .nav .desc {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #BFBCB2;
+    max-width: 267px;
+}
+
+.footer .nav .icon {
+    margin-top: 12px;
+    display: flex;
+    gap: 18px;
+}
+
+.footer .nav .border {
+    display: inline-block;
+    margin-top: 14px;
+    width: 130px;
+    height: 1px;
+    background: #59554B;
+}
+
+.footer .nav .link {
+    margin-top: 28px;
+}
+
+.footer .nav a {
+    display: block;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.68;
+    color: #BFBCB2;
+    margin-top: 12px;
+    white-space: nowrap;
+}
+
+.footer .nav strong {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #FFFFFF;
+}
+
+.border-footer {
+    margin-top: 38px;
+    width: 1170px;
+    height: 1px;
+    background: #59554B;
+}
+
+.desc-footer {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height:1.86;
+    text-align: center;
+    color: #807D74;
+    padding: 28px 0;
 }
