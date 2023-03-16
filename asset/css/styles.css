@@ -80,10 +80,6 @@ a {
     color: #5F5B53;
 }
 
-.header .navbar .btn {
-
-}
-
 /* hero */
 
 .header .hero {
@@ -318,4 +314,116 @@ a {
 
 .courses .ct-courses .desc .mb-row a:hover {
     background: #FFB900;
+}
+
+/* ====testimonial===== */
+
+.testimonial {
+    background-color:#2E2100;
+    margin-top: 200px;
+}
+
+.testimonial .nav-tes {
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 0;
+}
+
+.testimonial .nav-tes h3 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #F7F7F7;
+    margin-top: 18px;
+}
+
+.testimonial .row p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    color: #BFBCB3;
+    margin-top: 4px;
+    margin-bottom: 28px;
+}
+
+.testimonial .nav-tes .text-test {
+    width: 770px;
+}
+
+.testimonial .text-test p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+/* ====features=== */
+
+.features {
+    margin-top: 200px;
+}
+
+.features .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features .nav .images {
+    display: flex;
+    gap: 30px;
+
+}
+
+.features .nav img {
+    flex:1;
+    width: 270px;
+    height: 405px;
+    object-fit: cover;
+    background: #FFB900;
+    border-radius: 26px;
+}
+
+.features .nav .img_1 {
+    margin-top: 33px;
+}
+
+.features .nav .text-featu {
+    width: 470px;
+}
+
+.features .text-featu h2 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.features .text-featu p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5F5B53;
+}
+
+.features .text-featu .desc {
+    margin: 16px 0;
+}
+
+.features .text-featu .btn {
+    display: inline-block;
+    margin-top: 32px;
+    padding: 11px 37px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #FFFFFF;
+    background: #FFB900;
+    border-radius: 26px;
+    cursor: pointer;
 }
